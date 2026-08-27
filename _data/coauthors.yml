@@ -1,0 +1,7 @@
+# Map co-author surnames to their homepage so they get linked on the publications page.
+# Add entries as you publish with collaborators, for example:
+#
+# "smith":
+#   - firstname: ["Jane", "J."]
+#     url: https://jane-smith.example.com
+{}

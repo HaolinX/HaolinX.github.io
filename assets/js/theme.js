@@ -1,14 +1,19 @@
+// HAS TO BE in the head tag, otherwise a flicker effect will occur
+
 // Toggle through light, dark, and system theme settings.
 
-// CUSTOM: force the toggle icons to follow an "action" convention and hide the
-// system icon. Injected synchronously from <head> so there is no first-paint flicker.
+// CUSTOM STYLES injected synchronously from <head> (no first-paint flicker).
+//  - toggle icons use an "action" convention (dark shows sun, light shows moon)
+//  - the "system" toggle icon is hidden
+//  - the bottom footer padding is tightened
 (function () {
   var css =
     "#light-toggle-system{display:none !important;}" +
     "html[data-theme-setting=\"dark\"] #light-toggle-light{display:inline-block !important;}" +
     "html[data-theme-setting=\"dark\"] #light-toggle-dark{display:none !important;}" +
     "html[data-theme-setting=\"light\"] #light-toggle-dark{display:inline-block !important;}" +
-    "html[data-theme-setting=\"light\"] #light-toggle-light{display:none !important;}";
+    "html[data-theme-setting=\"light\"] #light-toggle-light{display:none !important;}" +
+    "footer.sticky-bottom{padding-top:14px !important;padding-bottom:14px !important;}";
   var s = document.createElement("style");
   s.textContent = css;
   document.head.appendChild(s);

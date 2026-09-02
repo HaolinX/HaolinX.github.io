@@ -5,7 +5,6 @@
 // CUSTOM STYLES injected synchronously from <head> (no first-paint flicker).
 //  - toggle icons: "action" convention (dark shows sun, light shows moon); system icon hidden
 //  - footer made more compact (smaller top gap and padding)
-//  - the "ctrl k" search hint text is hidden (the search icon stays)
 (function () {
   var css =
     "#light-toggle-system{display:none !important;}" +
@@ -13,9 +12,7 @@
     "html[data-theme-setting=\"dark\"] #light-toggle-dark{display:none !important;}" +
     "html[data-theme-setting=\"light\"] #light-toggle-dark{display:inline-block !important;}" +
     "html[data-theme-setting=\"light\"] #light-toggle-light{display:none !important;}" +
-    "footer.sticky-bottom{margin-top:1.5rem !important;padding-top:12px !important;padding-bottom:12px !important;}" +
-    "#search-toggle .nav-link{font-size:0 !important;}" +
-    "#search-toggle .nav-link i{font-size:1rem !important;}";
+    "footer.sticky-bottom{margin-top:1.5rem !important;padding-top:12px !important;padding-bottom:12px !important;}";
   var s = document.createElement("style");
   s.textContent = css;
   document.head.appendChild(s);

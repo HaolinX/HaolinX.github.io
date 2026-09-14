@@ -7,7 +7,7 @@ subtitle: Computer Science undergrad at <a href='https://ucsd.edu/'>UC San Diego
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -30,7 +30,7 @@ Right now I'm a **Full-Stack (Cyber Security) Engineer at VisionX**, working on 
 
 I'm most excited by the mix of **full-stack development, security, and AI**. A few things I've built: a chatbot that answers questions about your PDFs, a command-line password manager with encryption, and an AI video-editing app that earned a published paper.
 
-I love building things that are both helpful and secure. Feel free to look through my [CV]({{ '/cv/' | relative_url }}), or just say hi over my email[jax008@ucsd.edu](mailto:Jax008@ucsd.edu)!
+I love building things that are both helpful and secure. Feel free to look through my [CV]({{ '/cv/' | relative_url }}), or just say hi over my email [jax008@ucsd.edu](mailto:Jax008@ucsd.edu)!
 
 ## experience
 

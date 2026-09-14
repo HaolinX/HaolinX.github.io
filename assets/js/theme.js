@@ -18,7 +18,7 @@
     "footer.sticky-bottom{margin-top:1.5rem !important;padding-top:12px !important;padding-bottom:12px !important;}" +
     ".profile img{aspect-ratio:1/1 !important;object-fit:cover !important;object-position:center 20% !important;}" +
     "@media (min-width:576px){.profile{width:35% !important;}}" +
-    "@media (min-width:576px){.profile.float-right{margin-right:-8px !important;}}" +
+    "@media (min-width:576px){.profile.float-right{margin-right:-24px !important;}}" +
     ".post h2{margin-top:2rem !important;}" +
     ".post h2 a{pointer-events:none !important;cursor:default !important;}";
   var s = document.createElement("style");

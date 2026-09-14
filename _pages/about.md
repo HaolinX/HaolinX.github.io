@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: subtitle: Computer Science undergrad at <a href='https://ucsd.edu/'>UC San Diego</a> · into full-stack, security &amp; AI
+subtitle: Computer Science undergrad at <a href='https://ucsd.edu/'>UC San Diego</a> · into full-stack, security &amp; AI
 
 profile:
   align: right

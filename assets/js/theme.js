@@ -5,7 +5,7 @@
 // CUSTOM STYLES injected synchronously from <head> (no first-paint flicker).
 //  - toggle icons: "action" convention (dark shows sun, light shows moon); system icon hidden
 //  - footer made more compact
-//  - profile photo cropped to a perfect circle (works for non-square photos)
+//  - profile photo: perfect circle, cropped a bit higher so the head is not cut off, slightly larger
 //  - more breathing room before each section heading
 //  - the "news" / "selected publications" headings are no longer clickable links
 (function () {
@@ -16,7 +16,8 @@
     "html[data-theme-setting=\"light\"] #light-toggle-dark{display:inline-block !important;}" +
     "html[data-theme-setting=\"light\"] #light-toggle-light{display:none !important;}" +
     "footer.sticky-bottom{margin-top:1.5rem !important;padding-top:12px !important;padding-bottom:12px !important;}" +
-    ".profile img{aspect-ratio:1/1 !important;object-fit:cover !important;}" +
+    ".profile img{aspect-ratio:1/1 !important;object-fit:cover !important;object-position:center 20% !important;}" +
+    "@media (min-width:576px){.profile{width:35% !important;}}" +
     ".post h2{margin-top:2.5rem !important;}" +
     ".post h2 a{pointer-events:none !important;cursor:default !important;}";
   var s = document.createElement("style");

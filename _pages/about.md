@@ -9,8 +9,6 @@ profile:
   image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>San Diego, California</p>
-    <p><a href="mailto:Jax008@ucsd.edu">Jax008@ucsd.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -26,15 +24,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm **Haolin**, you can also call me **Jayden**. I'm a Computer Science undergrad at [UC San Diego](https://ucsd.edu/), and I love building things that are both genuinely useful and secure.
+Hi, I'm **Haolin**, you can also call me **Jayden**. I'm a Computer Science undergrad at [UC San Diego](https://ucsd.edu/)
 
 Right now I'm a **Full-Stack (Cyber Security) Engineer at VisionX**, working on the backend of a health app that handles sensitive data. I find and fix security holes, tighten up the testing pipeline, and build tools that watch for suspicious activity.
 
-I'm most excited by the mix of **full-stack development, security, and AI**. A few things I've built: a chatbot that answers questions about your PDFs, a command-line password manager with encryption, and an AI video-editing app that earned a [U.S. patent](/cv/) and a published paper.
+I'm most excited by the mix of **full-stack development, security, and AI**. A few things I've built: a chatbot that answers questions about your PDFs, a command-line password manager with encryption, and an AI video-editing app that earned a published paper.
 
-Before UCSD, I studied at San Francisco State University (GPA 3.96/4.00), where I was a Learning Assistant helping 200+ students learn to code.
-
-Feel free to look through my [CV]({{ '/cv/' | relative_url }}), or just say hi over [email](mailto:Jax008@ucsd.edu)!
+I love building things that are both helpful and secure. Feel free to look through my [CV]({{ '/cv/' | relative_url }}), or just say hi over my email[jax008@ucsd.edu](mailto:Jax008@ucsd.edu)!
 
 ## experience
 

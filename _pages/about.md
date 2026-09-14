@@ -7,7 +7,7 @@ subtitle: Computer Science undergrad at <a href='https://ucsd.edu/'>UC San Diego
 profile:
   align: right
   image: prof_pic.png
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>San Diego, California</p>
     <p><a href="mailto:Jax008@ucsd.edu">Jax008@ucsd.edu</a></p>

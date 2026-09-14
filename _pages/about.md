@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computer Science @ <a href='https://ucsd.edu/'>UC San Diego</a> · Full-Stack &amp; Security Engineer
+subtitle: subtitle: Computer Science undergrad at <a href='https://ucsd.edu/'>UC San Diego</a> · into full-stack, security &amp; AI
 
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>La Jolla, California</p>
+    <p>San Diego, California</p>
     <p><a href="mailto:Jax008@ucsd.edu">Jax008@ucsd.edu</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -26,15 +26,26 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm **Haolin** — I also go by **Jayden**. I'm a Computer Science student at the [University of California, San Diego](https://ucsd.edu/), and I care about building software that is both genuinely useful and secure by design.
+Hi, I'm **Haolin**, you can also call me **Jayden**. I'm a Computer Science undergrad at [UC San Diego](https://ucsd.edu/), and I love building things that are both genuinely useful and secure.
 
-Right now I'm a **Full-Stack (Cyber Security) Engineer at VisionX**, where I harden the backend of a health application that handles sensitive data — remediating dependency vulnerabilities, restoring CI security gates in the pull-request workflow, and designing an extensible application-layer security monitoring framework from the ground up.
+Right now I'm a **Full-Stack (Cyber Security) Engineer at VisionX**, working on the backend of a health app that handles sensitive data. I find and fix security holes, tighten up the testing pipeline, and build tools that watch for suspicious activity.
 
-My interests sit at the intersection of **full-stack development, application security, and applied AI**. I've built a Retrieval-Augmented Generation chatbot that answers questions over uploaded PDFs, a CLI password manager with role-based access control and AES-256 encryption, and an AI-powered video editing app that earned a [U.S. patent](/cv/) and a published conference paper.
+I'm most excited by the mix of **full-stack development, security, and AI**. A few things I've built: a chatbot that answers questions about your PDFs, a command-line password manager with encryption, and an AI video-editing app that earned a [U.S. patent](/cv/) and a published paper.
 
-Before UC San Diego I studied at San Francisco State University (GPA 3.96/4.00), where I also worked as a Learning Assistant guiding 200+ students through intermediate programming.
+Before UCSD, I studied at San Francisco State University (GPA 3.96/4.00), where I was a Learning Assistant helping 200+ students learn to code.
 
-Have a look through my [projects]({{ '/projects/' | relative_url }}) and [CV]({{ '/cv/' | relative_url }}), or feel free to reach out by [email](mailto:Jax008@ucsd.edu).
+Feel free to look through my [CV]({{ '/cv/' | relative_url }}), or just say hi over [email](mailto:Jax008@ucsd.edu)!
+
+## experience
+
+**Full-Stack (Cyber Security) Engineer — VisionX** · Jun 2026 – Present<br>
+Hardening the backend of a health application that handles sensitive data: I remediated 26 dependency vulnerabilities, restored CI security gates across the pull-request workflow, and designed an extensible application-layer security monitoring framework from scratch (pluggable detectors, PHI-safe logging, fail-open execution), growing the test suite from 211 to 290 tests.
+
+**Learning Assistant, CSC 215 — San Francisco State University** · Aug 2024 – Jun 2025<br>
+Guided 200+ students through intermediate Java — control flow, data structures, and object-oriented design — and debugged their code one-on-one.
+
+**Research Assistant, SoftCom Lab — Cal Poly Pomona** · Sep 2021 – Jun 2022<br>
+Built AI/ML models for mobile video content extraction and deployed them to the cloud for real-time inference.
 
 
 ## projects
